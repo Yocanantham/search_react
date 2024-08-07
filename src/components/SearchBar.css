@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search-box {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    width: 45%;
+    margin: 3rem auto;
+    box-shadow: 1px 1px 15px lightgray;
+    background-color: grey;
+}
+
+.search-form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+.search-label {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-input {
+    border: 3px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}

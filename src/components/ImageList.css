@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.images-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+.images-list:hover {
+    transform: translateY(-5px);
+}
+
+.images-single {
+    transition: transform 0.3s ease;
+}
+
+.images-single:hover {
+    transform: translateY(-15px);
+}

@@ -10,10 +10,16 @@ function App() {
         const result = await searchImages(term);
 
         setImages(result);
+        console.log("A search made for", term);
     };
 
     return (
-        <div>
+        <div
+            style={{
+                display: "flex",
+                flexFlow: "column nowrap",
+                backgroundColor: "lightgray",
+            }}>
             <SearchBar onSubmit={handleClick} />
             <ImageList images={images} />
         </div>
