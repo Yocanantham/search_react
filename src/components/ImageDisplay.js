@@ -1,3 +1,4 @@
+import "./ImageList.css";
 function ImageDisplay({ image }) {
     return (
         <div>
